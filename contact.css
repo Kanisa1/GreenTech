@@ -97,3 +97,7 @@ input[type="submit"]:hover {
 .tok h1{
     font-size: 20px;
 }
+
+.tok p{
+    font-size: 5px;
+}
