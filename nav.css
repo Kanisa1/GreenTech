@@ -1,0 +1,149 @@
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Fixed header styling */
+header {
+    background-color: rgb(56, 158, 56);
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures the header stays on top */
+}
+
+/* Add padding to the top of the body to prevent content from being hidden behind the fixed header */
+body {
+    padding-top: 60px; /* Adjust this value based on the height of your header */
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .left, nav .right {
+    display: flex;
+    align-items: center;
+}
+
+nav li a, nav .butt {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.butt {
+    background-color: rgb(116, 116, 235);
+    border-radius: 10px;
+    position: relative;
+    right: 0;
+    padding: 26px 45px;
+}
+
+nav li a:hover, nav .butt:hover {
+    color: #111;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.zigzag {
+    stroke: green;
+    stroke-width: 5;
+    fill: none;
+}
+
+.zigzag-svg {
+    display: block;
+    margin-bottom: -5px; /* Adjust this value to control the space between the zigzag lines */
+}
+
+.one {
+    text-align: center;
+    float: left;
+    width: 50%;
+    margin-top: 50px;
+    transform:scale(1);
+    transition: transform .8s ease;
+}
+
+.one:hover{
+    transform: scale(1.1);
+
+}
+
+.image {
+    width: 650px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+section {
+    text-align: left; /* or center, depending on your preference */
+    margin-top: 20px; /* Ensure there's some space between .one div and section */
+}
+
+section p {
+    display: block;
+    text-align: left; /* Change to 'center' if needed */
+    color: black;
+    font-size: 75px;
+    margin-top: 10px; /* Optional: Adds space above the paragraph */
+}
+
+/* CSS for aligning buttons to the left */
+.bs button {
+    justify-content: flex-start;
+    gap: 10px; /* Adjust the gap between buttons if needed */
+    border-radius: 25px;
+    border-color: aliceblue;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.bs button:hover {
+    background-color: green;
+}
+
+.two {
+    float: left;
+    width: 50%;
+    background: fixed;
+    top: 0;
+}
+
+.three {
+    float: left;
+    width: 50%;
+    transform:scale(1);
+    transition: transform .8s ease;
+
+}
+
+.three:hover{
+    transform: scale(1.1);
+}
+
+.conn {
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+}
