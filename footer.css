@@ -1,24 +1,25 @@
 footer{background-color: rgb(56, 158, 56);
-  height: 600px;
-  clear:both;
-  color: white;}
+    height: 600px;
+    clear:both;
+    color: white;}
+    
+    
+    
+    .fot{float:left;
+    width:33.3%;
+    height:200px;}
+    
+    .fot h1{text-decoration:overline;}
+    
+    .std{float:left;
+    height: 200px;
+    width: 50%;}
+    
+    
+    
+    hr {
+        border: 1px solid white;
+        margin: 10px 0;
+    }
   
   
-  
-  .fot{float:left;
-  width:33.3%;
-  height:200px;}
-  
-  .fot h1{text-decoration:overline;}
-  
-  .std{float:left;
-  height: 200px;
-  width: 50%;}
-  
-  
-  
-  hr {
-      border: 1px solid white;
-      margin: 10px 0;
-  }
-

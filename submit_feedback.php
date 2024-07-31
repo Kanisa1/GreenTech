@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "root"; // Change to your database username
-$password = ""; // Change to your database password
+$username = "root"; //  database username
+$password = ""; // database password
 $dbname = "feedback";
 
 // Create connection
@@ -21,6 +21,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($conn->query($sql) === TRUE) {
         $message = "Thank you for your feedback!";
+        echo "<script>
+                alert('$message');
+                window.location.href = 'index.php';
+              </script>";
+        exit();
     } else {
         $message = "Error: " . $sql . "<br>" . $conn->error;
     }

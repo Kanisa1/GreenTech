@@ -18,13 +18,13 @@
     <nav>
         <ul>
             <div class="left">
-                <li><a href="Index.html">Home</a></li>
-                <li><a href="Products.html">Products</a></li>
-                <li><a href="Testimonials.html">Testimonials</a></li>
+                <li><a href="Index.php">Home</a></li>
+                <li><a href="Products.php">Products</a></li>
+                <li><a href="Testimonials.php">Testimonials</a></li>
             </div>
             <li class="center"><img src="logo.png" class="logo" alt="Logo"></li>
             <div class="right">
-                <li><a href="Contact.html"><button class="butt">Contact Us</button> </a></li>
+                <li><a href="register.php"><button class="butt">register</button> </a></li>
             </div>
         </ul>
     </nav>
